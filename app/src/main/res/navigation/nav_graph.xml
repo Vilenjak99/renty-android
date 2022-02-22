@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/addCar">
+
+    <fragment
+        android:id="@+id/addCar"
+        android:name="android.singidunum.ac.renty.AddCar"
+        android:label="fragment_add_car"
+        tools:layout="@layout/fragment_add_car" />
+    <fragment
+        android:id="@+id/myCars"
+        android:name="android.singidunum.ac.renty.MyCars"
+        android:label="fragment_my_cars"
+        tools:layout="@layout/fragment_my_cars" />
+    <fragment
+        android:id="@+id/reservationRequests"
+        android:name="android.singidunum.ac.renty.ReservationRequests"
+        android:label="fragment_reservation_requests"
+        tools:layout="@layout/fragment_reservation_requests" />
+    <fragment
+        android:id="@+id/myReservations"
+        android:name="android.singidunum.ac.renty.MyReservations"
+        android:label="fragment_my_reservations"
+        tools:layout="@layout/fragment_my_reservations" />
+    <fragment
+        android:id="@+id/homee"
+        android:name="android.singidunum.ac.renty.Homee"
+        android:label="fragment_homee"
+        tools:layout="@layout/fragment_homee" />
+</navigation>

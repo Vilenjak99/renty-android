@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/homee"
+        android:icon="@drawable/home_icon"/>
+
+    <item android:title="Requests"
+        android:id="@+id/reservationRequests"
+        android:icon="@drawable/reservation_request_icon"/>
+
+    <item android:title="Add car"
+        android:id="@+id/addCar"
+        android:icon="@drawable/add_car_icon"/>
+
+    <item android:title="My cars"
+        android:id="@+id/myCars"
+        android:icon="@drawable/my_cars_icon"/>
+
+    <item android:title="My reservations"
+        android:id="@+id/myReservations"
+        android:icon="@drawable/reservations_icon"/>.
+</menu>
